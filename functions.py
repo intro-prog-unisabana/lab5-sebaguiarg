@@ -1,4 +1,4 @@
-notas = [85, 92, 78]
+notas = []
 def promedio(notas):
     """Definir el nombre de la funcion en base a la entrada en la lista notas"""
     if len(notas) <= 0:
