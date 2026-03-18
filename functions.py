@@ -1,7 +1,8 @@
 
 def promedio_estudiante(calificaciones):
-    """Definir el nombre de la funcion en base a la entrada en la lista notas"""
-    if len(calificaciones) <= 0:
-        print("Debes agregar las calificaciones")
+    if calificaciones is None or len(calificaciones) == 0:
+        return 0.0
     else:
         return float(sum(calificaciones)/len(calificaciones))
+
+print(promedio_estudiante)
